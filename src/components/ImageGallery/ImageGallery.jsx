@@ -61,7 +61,7 @@ class ImageGallery extends Component {
   render() {
     const { images, isLoading } = this.state;
     return (
-      <ul>
+      <>
         <ImageGalleryWrapper>
           {images.map(image => (
             <ImageGalleryItem key={image.id} image={image} />
@@ -78,7 +78,7 @@ class ImageGallery extends Component {
           </>
         )}
         {isLoading && <Loader />}
-      </ul>
+      </>
     );
   }
 }
