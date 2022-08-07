@@ -5,6 +5,7 @@ import { ImageGalleryWrapper } from './ImageGallery.styled';
 import ImageGalleryItem from '../ImageGalleryItem/ImageGalleryItem';
 import Button from '../Button/Button';
 import { BtnTop } from '../Button/Button.styled';
+import { BiUpvote } from 'react-icons/bi';
 import Loader from '../Loader/Loader';
 
 class ImageGallery extends Component {
@@ -72,7 +73,7 @@ class ImageGallery extends Component {
             <Button loadMore={this.onLoadMore}>Load more</Button>
             {images.length > 12 && (
               <BtnTop type="button" onClick={this.onTop}>
-                Top
+                <BiUpvote color="#fff" size="30px" />
               </BtnTop>
             )}
           </>

@@ -4,8 +4,8 @@ const Loader = () => {
   return (
     <ThreeCircles
       wrapperStyle={{ justifyContent: 'center' }}
-      height="50"
-      color="#3f51b5"
+      height="150"
+      color="#B46AEC"
     />
   );
 };

@@ -41,17 +41,10 @@ export const BtnTop = styled.button`
   right: 50px;
   cursor: pointer;
   border-radius: 50px;
+  padding: 10px 12px;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
-  height: 40px;
-  color: #fff;
   border: 0;
-  text-decoration: none;
-  font-family: inherit;
-  font-size: 18px;
-  line-height: 24px;
-  font-style: normal;
-  font-weight: 500;
   background-image: linear-gradient(
     to bottom,
     #b46aec,
